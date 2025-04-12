@@ -1,0 +1,48 @@
+.contact-page {
+    font-family: "Inter", sans-serif;
+  }
+  
+  .contact-form {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .contact-form:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-info {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .contact-info:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-info a:hover {
+    transition: color 0.3s ease;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .contact-form,
+    .contact-info {
+      padding: 1.5rem;
+    }
+  
+    .contact-form h2,
+    .contact-info h2 {
+      font-size: 1.5rem;
+    }
+  }
+  
+  @media (max-width: 640px) {
+    .contact-page .text-4xl {
+      font-size: 2rem;
+    }
+  
+    .contact-page .text-lg {
+      font-size: 1rem;
+    }
+  }
