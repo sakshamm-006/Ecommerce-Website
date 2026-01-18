@@ -29,7 +29,7 @@ const App = () => {
       offset: 100,
       duration: 800,
       easing: "ease-in-sine",
-      delay: 100,
+     delay:100;
     });
     AOS.refresh();
   }, []);
@@ -39,7 +39,7 @@ const App = () => {
       <div className="bg-white dark:bg-gray-900 dark:text-white duration-200">
         <Navbar handleOrderPopup={handleOrderPopup} />
         <Routes>
-          {/* Home Page */}
+          {/* Home page*/}
           <Route
             path="/"
             element={
@@ -55,9 +55,9 @@ const App = () => {
               </>
             }
           />
-          {/* About Page */}
+          {/* About page */}
           <Route path="/clothes" element={<TopRatedClothes />} />
-          {/* Contact Page */}
+          {/* Contact page*/}
           <Route path="/Contact" element={<Contact />} />
           <Route path="/kidswear" element={<KidsWear />} />
           <Route path="/menswear" element={<MensWear />} />
